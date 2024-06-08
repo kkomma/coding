@@ -1,0 +1,2 @@
+this is test resource file
+this is new second line data
