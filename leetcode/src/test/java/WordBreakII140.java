@@ -137,7 +137,7 @@ public class WordBreakII140 {
 
 
     /**
-     * https://leetcode.com/problems/word-break-ii/discuss/44167/My-concise-JAVA-solution-based-on-memorized-DFS
+     * https://leetcode.com/problemsss/word-break-ii/discuss/44167/My-concise-JAVA-solution-based-on-memorized-DFS
      */
     public List<String> wordBreak3(String s, Set<String> wordDict) {
         return DFS(s, wordDict, new HashMap<String, LinkedList<String>>());
