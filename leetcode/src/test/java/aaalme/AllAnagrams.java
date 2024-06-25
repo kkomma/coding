@@ -3,16 +3,12 @@ package aaalme;
 public class AllAnagrams {
 
 	public static void main(String[] args) {
-		String str = "abc";
-		allAnagrams(str);
-	}
-
-	public static void allAnagrams(String str) {
+		String str = "abc";		
 		char[] arr = str.toCharArray();
 		int n = arr.length;
 		permute(arr, 0, n - 1);
 	}
-
+	
 	public static void permute(char[] arr, int l, int r) {
 		if (l == r) {
 			System.out.println(String.valueOf(arr));

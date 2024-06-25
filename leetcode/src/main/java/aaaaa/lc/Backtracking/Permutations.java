@@ -47,6 +47,10 @@ public class Permutations {
         }
     }
     public static void main(String[] args) {
+    	
+    	int[] a = {1,2,3};
+    	Permutations p = new Permutations();
+    	System.out.println(p.permute(a));
 
     }
 }

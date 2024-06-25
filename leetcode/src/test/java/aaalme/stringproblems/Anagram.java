@@ -20,13 +20,14 @@ public class Anagram {
 
     public static void main(String[] args) {
         System.out.println(checkAnagram("anagram", "nagaram")); // True
-        System.out.println(checkAnagram("rat", "car")); // False
-        System.out.println(checkAnagram("a", "a")); // True
-        System.out.println(checkAnagram("ab", "a")); // False
-        System.out.println(checkAnagram("a", "ab")); // False
-        System.out.println(checkAnagram("a", "b")); // False
-        System.out.println(checkAnagram("a", "")); // False
-        System.out.println(checkAnagram("", "a")); // False
-        System.out.println(checkAnagram("", "")); // True
+        System.out.println(checkAnagram("kasi", "iukas")); // True
+//        System.out.println(checkAnagram("rat", "car")); // False
+//        System.out.println(checkAnagram("a", "a")); // True
+//        System.out.println(checkAnagram("ab", "a")); // False
+//        System.out.println(checkAnagram("a", "ab")); // False
+//        System.out.println(checkAnagram("a", "b")); // False
+//        System.out.println(checkAnagram("a", "")); // False
+//        System.out.println(checkAnagram("", "a")); // False
+//        System.out.println(checkAnagram("", "")); // True
     }
 }

@@ -17,7 +17,7 @@ public class DecimalBinary {
 
         int num = 123;
         int y = num;
-        int binary[] = new int[40];
+        int binary[] = new int[32];
         int index = 0;
         while(num > 0){
           binary[index++] = num%2;

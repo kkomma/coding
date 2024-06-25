@@ -15,7 +15,7 @@ public class AaaHashmapGroupBy {
 		map.put(4, "B");
 		map.put(5, "B");
 		map.put(6, "C");
-		Map<Object, List<Integer>> valueMap = map.keySet().stream().collect(Collectors.groupingBy(k -> map.get(k)));
+		Map<Object, List<Integer>> valueMap = map.keySet().stream().collect(Collectors.groupingBy(k -> map.get(k)));		
 		System.out.println(valueMap.toString());
 	}
 

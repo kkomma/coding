@@ -14,7 +14,7 @@ public class StringDigits {
                 System.out.println("isDigit: " + aa);
             }
             if (!Character.isLetterOrDigit(aa)) {
-                System.out.println("isLetterOrDigit: " + aa);
+                System.out.println("not isLetterOrDigit: " + aa);
             }
         }
     }
